@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background-login {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  background-image: url('../assests/login1.png'); /* Apply background image here */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 100vh; /* Ensure the container covers the full viewport height */
+}
+
+.left-side {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-side h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.left-side p {
+  color: #666;
+}
+
+.login-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border: solid 1px #cccccc;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+  margin-top: 40px;
+}
+
+.input-field {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container input {
+  width: 80%;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 50px;
+  top: 40%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #333;
+}
+
+.login-button {
+  width: 80%;
+  padding: 10px;
+  background-color: darkblue;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.login-form input:focus,
+.login-form button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Media Queries for responsiveness */
+
+/* Tablet */
+@media (max-width: 768px) {
+  .left-side {
+    display: none; /* Hide the left-side content on smaller screens */
+  }
+  
+  .login-container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .login-form {
+    width: 90%;
+    max-width: 400px;
+    padding: 15px;
+  }
+
+  .input-field, .password-container input, .login-button {
+    width: 100%;
+  }
+
+  .password-toggle {
+    right: 20px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .background-login {
+    background-image: none; /* Remove background image for mobile view */
+  }
+
+  .login-form h2 {
+    font-size: 24px;
+  }
+
+  .input-field, .password-container input {
+    font-size: 14px;
+  }
+
+  .login-button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .password-toggle {
+    right: 10px;
+  }
+}

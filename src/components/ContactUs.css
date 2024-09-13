@@ -1,0 +1,130 @@
+/* 
+.full-page-background {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d0f0c0;
+  }
+  
+  .contact-us-container {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+   
+  }
+  
+  .contact-us-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #555;
+    background-color: #fff; 
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+  }
+  
+  .contact-item svg {
+    color: #CECEFF; }
+  
+  .contact-item p {
+    margin-left: 15px;
+  }
+   */
+
+
+
+   .full-page-background {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d0f0c0; /* Pastel green background */
+  }
+  
+  .contact-us-container {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact-us-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333; /* Darker text color */
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #555; /* Dark grey text color */
+    background-color: #fff; /* White background for each item */
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+  }
+  
+  .contact-item svg {
+    color: #CECEFF; /* Example color for icons */
+  }
+  
+  .contact-item p {
+    margin-left: 15px;
+  }
+  
+  /* Styling for the navigate button */
+  .navigate-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #CECEFF; /* Button color */
+    color: #333;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navigate-button svg {
+    margin-left: 10px;
+  }
+  
+  .navigate-button:hover {
+    background-color: #9A0056; /* Hover color */
+    color: white;
+  }
+  

@@ -1,0 +1,136 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user1",
+      "password": "user123",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "username": "user2",
+      "password": "user456",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Gold Chain",
+      "category": "Chain",
+      "price": 100,
+      "image": "chain-11.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Silver Chain",
+      "category": "Chain",
+      "price": 80,
+      "image": "chain-12.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Platinum Chain",
+      "category": "Chain",
+      "price": 200,
+      "image": "chain-13.jpg"
+    },
+    {
+      "id": 4,
+      "name": "P2 Chain",
+      "category": "Chain",
+      "price": 200,
+      "image": "chain-14.jpg"
+    },
+    {
+      "id": 5,
+      "name": "P3 Chain",
+      "category": "Chain",
+      "price": 200,
+      "image": "chain-15.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Gold ring",
+      "category": "Ring",
+      "price": 100,
+      "image": "ring-1.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Gold ring2",
+      "category": "Ring",
+      "price": 100,
+      "image": "ring-2.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Gold ring3",
+      "category": "Ring",
+      "price": 100,
+      "image": "ring-3.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Gold ring4",
+      "category": "Ring",
+      "price": 100,
+      "image": "ring-4.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Gold ring5",
+      "category": "Ring",
+      "price": 100,
+      "image": "ring-5.jpg"
+    },
+    {
+      "id": 11,
+      "name": "earring1",
+      "category": "earRing",
+      "price": 100,
+      "image": "earring-1.jpg"
+    },
+    {
+      "id": 12,
+      "name": "earring2",
+      "category": "earRing",
+      "price": 100,
+      "image": "earring-2.jpg"
+    },
+    {
+      "id": 13,
+      "name": "earring3",
+      "category": "earRing",
+      "price": 100,
+      "image": "earring-3.jpg"
+    },
+    {
+      "id": 14,
+      "name": "earring4",
+      "category": "earRing",
+      "price": 100,
+      "image": "earring-4.jpg"
+    },
+    {
+      "id": 15,
+      "name": "earring5",
+      "category": "earRing",
+      "price": 100,
+      "image": "earring-5.jpg"
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "id": "a177",
+      "cart": []
+    }
+  ]
+}

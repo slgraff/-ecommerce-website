@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# Project Name
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Pooja jewellery Store**
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This is a React-based web application for an online jewellery store. Users can browse products, add items to their cart, and place orders. The project includes a user-friendly UI and responsive design.
 
-### `npm start`
+**Responsive Design:** Fully adapts to various screen sizes, including desktop, tablet, and mobile views.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- User login functionality
+- Product listing with search functionality
+- Add to Cart and Checkout features
+- Responsive UI
+- JSON Server for backend simulation
+- Deployed on GitHub 
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- React Router
+- Context API for state management (e.g., CartContext)
+- JSON Server (for backend simulation)
+- Custom CSS for styling
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project folder:
 
-### `npm run eject`
+    cd ecommerce-app
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install dependencies: 
+    
+    npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Start the application:
+    
+    npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ # Folder Structure
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ ├── public
+├── src
+│   ├── assests
+│   ├── componentst
+│   ├── context  
+│   ├── pages
+│   ├── App.js
+│   ├── index.js
+│   └── index.css 
+├── README.md
+├── package.json
+└── db.json (if using JSON Server)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+# Login Credentials
+To access the application, use the following login credentials:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Username: user
+Password: userpass
 
-### Analyzing the Bundle Size
+## UserDashboard
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+After the user successfully logs in, they are redirected to the **UserDashboard**. This page serves as the main entry point for users  navigate through the various sections of the application, such as products and the shopping cart.
 
-### Making a Progressive Web App
+### Key Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. **Responsive Header with Navigation:**
+   - The navigation bar has links to:
+     - `Login` page
+     - `Products` page
+     - `Contact Us` page
+     - `Cart` page (with a shopping cart icon).
+   -
+ **Loading State for Image:**
+   - When the dashboard loads, a loader is displayed while the background image is being fetched.
+   - The `useEffect` hook handles image loading and hides the loader once the image is loaded.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## ProductList
 
-### Deployment
+# Search Functionality: 
+Users can search for products by name, category, or price using a dynamic search bar.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Product Liking:
+ Users can "like" products, which are added to a personalized favorites list.
 
-### `npm run build` fails to minify
+# View Liked Products:
+ Liked products can be viewed in a separate popup that shows all the items marked as favorites.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Add to Cart: 
+Products can be added to the cart, with a notification confirming the action.
+
+# Image Popup: 
+Clicking on a product image opens an enlarged view for better details.
+
+
+## Cart
+
+# Shows Cart Items: 
+Displays items in the cart with images, names, prices, and quantities.
+
+# Manage Cart: 
+Allows users to remove items or clear the entire cart.
+
+# Place Order:
+ Opens a success modal when an order is placed.
+
+# State Management: 
+Uses useCart for cart data and useState for modal control.
+
+
