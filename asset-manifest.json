@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/-ecommerce-website/static/css/main.2e11c62d.css",
+    "main.js": "/-ecommerce-website/static/js/main.1c32a036.js",
+    "static/media/c3.jpg": "/-ecommerce-website/static/media/c3.ee3c4a14186af931f62a.jpg",
+    "static/media/c1.jpg": "/-ecommerce-website/static/media/c1.478cef8dd5db1b6fa8ea.jpg",
+    "static/media/login1.png": "/-ecommerce-website/static/media/login1.868011ad71e58b983296.png",
+    "static/media/login.png": "/-ecommerce-website/static/media/login.cb8d862a5f3280238663.png",
+    "static/media/Prakruthi11736.jpg": "/-ecommerce-website/static/media/Prakruthi11736.4b0450e7e01d19a0fc6c.jpg",
+    "static/media/earring-1.jpg": "/-ecommerce-website/static/media/earring-1.fb7150d65780066e87b0.jpg",
+    "static/media/earring-4.jpg": "/-ecommerce-website/static/media/earring-4.9dbeb328854462358001.jpg",
+    "static/media/chain-11.jpg": "/-ecommerce-website/static/media/chain-11.9851f4502208d4898df6.jpg",
+    "static/media/ring-3.jpg": "/-ecommerce-website/static/media/ring-3.5d0d8b273a32de7588e6.jpg",
+    "static/media/earring-5.jpg": "/-ecommerce-website/static/media/earring-5.51ee2510ca8b8e41e640.jpg",
+    "static/media/chain-14.jpg": "/-ecommerce-website/static/media/chain-14.9c7fd02c630d4743a3cd.jpg",
+    "static/media/chain-13.jpg": "/-ecommerce-website/static/media/chain-13.f9de795def79a45ab86f.jpg",
+    "static/media/ring-5.jpg": "/-ecommerce-website/static/media/ring-5.b2ec5ddef66f040ff730.jpg",
+    "static/media/ring-2.jpg": "/-ecommerce-website/static/media/ring-2.f21834a6217ef1ef22cb.jpg",
+    "static/media/earring-3.jpg": "/-ecommerce-website/static/media/earring-3.c81efbf9743fb2901e78.jpg",
+    "static/media/ring-4.jpg": "/-ecommerce-website/static/media/ring-4.5ba92efbdb36458f40fb.jpg",
+    "static/media/earring-2.jpg": "/-ecommerce-website/static/media/earring-2.962a116709e807ec9318.jpg",
+    "static/media/ring-1.jpg": "/-ecommerce-website/static/media/ring-1.68eaa37fb07a8999e00d.jpg",
+    "static/media/chain-15.jpg": "/-ecommerce-website/static/media/chain-15.35a63f2fcb6ee416fb47.jpg",
+    "static/media/chain-12.jpg": "/-ecommerce-website/static/media/chain-12.6e15e1d72d731392ea4c.jpg",
+    "static/media/logo.png": "/-ecommerce-website/static/media/logo.675d6e4f49dbda3e539c.png",
+    "index.html": "/-ecommerce-website/index.html",
+    "main.2e11c62d.css.map": "/-ecommerce-website/static/css/main.2e11c62d.css.map",
+    "main.1c32a036.js.map": "/-ecommerce-website/static/js/main.1c32a036.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e11c62d.css",
+    "static/js/main.1c32a036.js"
+  ]
+}
